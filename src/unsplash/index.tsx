@@ -90,7 +90,7 @@ const Unsplash: React.FC = () => {
     <div className="unsplash m-6">
      <Navbar/>
    
-      <div className="banner1 container">
+      <div className="banner1 container-fluid">
         <div className="search_container container">
           <h1 className="d1">Unsplash</h1>
           <p className="d1">
@@ -115,9 +115,7 @@ const Unsplash: React.FC = () => {
         </div>
       </div>
       <div className="mb-4">
-        <div className="buttons_portion d-flex flex-row ">
-          <ImageUploader onImageUpload={addImage} className='image_uploader' />
-        </div>
+        
 
         {isLoading && <h1>Loading....</h1>}
 
@@ -134,6 +132,9 @@ const Unsplash: React.FC = () => {
             </div>
           ))}
         </Masonry>
+        <div className="buttons_portion d-flex flex-row ">
+          <ImageUploader onImageUpload={addImage} className='image_uploader' />
+        </div>
       </div>
     </div>
   );
