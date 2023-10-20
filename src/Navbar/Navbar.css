@@ -1,0 +1,26 @@
+.navbar{
+    background-color: rgb(54, 54, 54);
+  }
+  .icon{
+    text-decoration: none;
+    color:#fff;
+    font-size:xx-large;
+    margin-left: 56px;
+  }
+  .navbar-nav{
+    margin-left: 10%;
+  }
+  .coll_link{
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: 300;
+  color: #c6c2c2;
+  margin-left: 10%;
+  }
+  .coll_link:hover{
+    color:#fff;
+    text-decoration: underline;
+  }
+  .coll_link:active{
+    text-shadow: 5px 5px 5px #fff;
+  }

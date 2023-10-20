@@ -1,0 +1,44 @@
+.heading {
+  color: rgb(57, 56, 56);
+  font-size: 47px;
+  text-align: center;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+.count {
+  text-align: center;
+  margin-bottom: 25px;
+}
+.collection {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.collection li {
+  height: 350px;
+  width: 350px;
+  margin-bottom: 0;
+}
+.collection li img {
+  height: 250px;
+  width: 300px;
+  margin-top: 20px;
+}
+.collection li h4 {
+  color: rgb(55, 55, 55);
+  font-size: large;
+  font-weight: 500;
+  text-decoration: underline;
+}
+.collection-items {
+  border: 1px solid rgb(95, 93, 93);
+  align-content: center;
+  justify-content: center;
+  border-radius: 3px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
