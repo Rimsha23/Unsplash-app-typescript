@@ -1,3 +1,4 @@
+// upload image from computer
 import React, { useState } from 'react';
 import './imageUploader.css'
 interface ImageUploaderProps {
