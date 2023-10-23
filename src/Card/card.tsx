@@ -6,6 +6,7 @@ import { useDispatch } from 'react-redux';
 import { addToCollection } from '../collection/collectionSlice';
 import { faTrash, faTag, faDownload, faPlus, faCircleXmark, faCogs } from '@fortawesome/free-solid-svg-icons';
 import { saveAs } from 'file-saver';
+import { Image } from '../collection/collectionSlice';
 interface CardProps {
   image: {
     id: number;
@@ -39,14 +40,15 @@ const Card: React.FC<CardProps> = ({ image, onDelete, onAddTag, onRemoveTag }) =
   };
 
   const handleAddToCollection = () => {
+    const image: Image = {
+      url,
+      
+    };
     dispatch(addToCollection(image));
   };
   const cardSize = selectedSizes[id] || 'large';
   const handleConfig = (id: number, size: string) => {
-    setSelectedSizes((prevSelectedSizes) => ({
-      ...prevSelectedSizes,
-      [id]: size,
-    }));
+    setSelectedSizes({[id]: size});
     setShowDropdown(false);
   };
 

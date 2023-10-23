@@ -1,6 +1,5 @@
 import React from "react";
-//Collection page
-import { useSelector, useDispatch } from "react-redux";
+import { useSelector} from "react-redux";
 import { Image } from "../collection/collectionSlice";
 import { RootState } from "../collection/collectionSlice";
 import "./collectionPage.css";

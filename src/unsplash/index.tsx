@@ -77,6 +77,7 @@ const Unsplash: React.FC = () => {
   const filterImagesByTag = () => {
     if (selectedTag === '') {
       return data;
+   
     } else {
       const filteredImages = data.filter((image) =>
         image.tags && image.tags.includes(selectedTag)
@@ -102,10 +103,13 @@ const Unsplash: React.FC = () => {
               type="text"
               placeholder=" Search high-resolution images"
               value={selectedTag}
-              onChange={(e) => setSelectedTag(e.target.value)}
+              onChange={(e) => {setSelectedTag(e.target.value)
+             
+              }}
               onKeyUp={(e) => {
                 if (e.key === 'Enter') {
                   setData(filterImagesByTag());
+                 
                 }
               }}
               className="search_form"
@@ -132,7 +136,7 @@ const Unsplash: React.FC = () => {
             </div>
           ))}
         </Masonry>
-        <div className="buttons_portion d-flex flex-row ">
+        <div className={`buttons_portion flex-row d-flex`}>
           <ImageUploader onImageUpload={addImage} className='image_uploader' />
         </div>
       </div>

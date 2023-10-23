@@ -61,6 +61,8 @@
     padding-right: 0;
     margin-left: 5px;
     margin-right: 5px;
+    margin-top: 5px;
+    margin-bottom: 5px;
 }
 .btn_remove{
 border: none;
