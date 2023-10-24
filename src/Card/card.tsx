@@ -3,7 +3,7 @@ import React, { useState } from 'react';
 import './card.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { useDispatch } from 'react-redux';
-import { addToCollection } from '../collection/collectionSlice';
+import { addToCollection } from '../actions/collectionAction';
 import { faTrash, faTag, faDownload, faPlus, faCircleXmark, faCogs } from '@fortawesome/free-solid-svg-icons';
 import { saveAs } from 'file-saver';
 import { Image } from '../collection/collectionSlice';

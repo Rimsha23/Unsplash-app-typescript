@@ -1,7 +1,7 @@
 import React from "react";
 import { useSelector} from "react-redux";
-import { Image } from "../collection/collectionSlice";
-import { RootState } from "../collection/collectionSlice";
+import { Image } from "../reducers/collectionReducer";
+import { RootState } from "../reducers/collectionReducer";
 import "./collectionPage.css";
 import Navbar from "../Navbar";
 const CollectionPage: React.FC = () => {
