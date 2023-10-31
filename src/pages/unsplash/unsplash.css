@@ -1,0 +1,68 @@
+.unsplash {
+  margin-bottom: 100px;
+}
+.banner1 {
+  background: url("../../images/banner1.jpg");
+  height: 450px;
+  margin-bottom: 25px;
+  display: flex;
+  align-items: left;
+  justify-content: left;
+  opacity: 0.9;
+}
+.search_container {
+  align-self: left;
+  height: 360px;
+  width: 70%;
+  display: flex;
+  justify-content: center;
+  justify-self: center;
+  align-items: left;
+  padding-left: 25px;
+  flex-direction: column;
+}
+.d1 {
+  color: #fff;
+}
+.buttons_portion {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 25px;
+}
+.btn_coll {
+  margin-left: 10px;
+  background-color: rgb(116, 188, 252);
+  border-radius: 5px;
+  border: none;
+  color: white;
+  height: 35px;
+  width: 55px;
+}
+.btn_coll:hover {
+  opacity: 0.7;
+}
+.search-input-wrapper {
+  display: flex;
+  align-items: center;
+}
+.search_form {
+  height: 45px;
+  width: 70%;
+  position: relative;
+  border-radius: 10px;
+  border: none;
+  padding-left: 30px;
+}
+.search_form:focus {
+  outline: 1px solid black;
+}
+.search_icon {
+  position: absolute;
+  margin-left: 10px;
+  color: #6e7072;
+}
+.search_icon:hover {
+  color: rgb(37, 37, 37);
+  cursor: pointer;
+}

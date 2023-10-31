@@ -1,9 +1,9 @@
 import React from 'react';
 import { Provider } from 'react-redux';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import Unsplash from './unsplash';
+import Unsplash from './pages/unsplash';
 import store from './store';
-import CollectionPage from './collectionPage';
+import CollectionPage from './pages/collectionPage';
 function App(): JSX.Element {
   return (
     <Provider store={store}>

@@ -1,31 +1,33 @@
-//Collection splice for collection page
-import { createSlice, PayloadAction } from '@reduxjs/toolkit';
+// collectionSlice.ts
+import { createSlice, PayloadAction } from "@reduxjs/toolkit";
 export interface Image {
   url: string;
-
 }
 
 export interface CollectionState {
   collection: Image[];
-
 }
-
+export type RootState = {
+  collection: CollectionState;
+};
 const initialState: CollectionState = {
   collection: [],
 };
-export type RootState = {
-   collection: CollectionState;
-   };
+
 const collectionReducer = createSlice({
-  name: 'collection',
+  name: "collection",
   initialState,
   reducers: {
     addToCollection: (state, action: PayloadAction<Image>) => {
       state.collection.push(action.payload);
     },
+    removeFromCollection: (state, action: PayloadAction<number>) => {
+      state.collection.splice(action.payload, 1);
+    },
   },
 });
 
-export const { addToCollection } = collectionReducer.actions;
+export const { addToCollection, removeFromCollection } =
+  collectionReducer.actions;
 
 export default collectionReducer.reducer;

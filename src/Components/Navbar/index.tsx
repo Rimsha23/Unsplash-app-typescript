@@ -1,7 +1,7 @@
 //Navbar component
-import React, { useState } from 'react';
-import { Link } from 'react-router-dom';
-import './Navbar.css';
+import React, { useState } from "react";
+import { Link } from "react-router-dom";
+import "./Navbar.css";
 
 const Navbar: React.FC = () => {
   const [isNavOpen, setIsNavOpen] = useState(false);
@@ -12,7 +12,9 @@ const Navbar: React.FC = () => {
 
   return (
     <nav className="navbar navbar-expand-lg">
-      <Link to={'/'} className="icon">Unsplash</Link>
+      <Link to={"/"} className="icon">
+        Unsplash
+      </Link>
       <button
         className="navbar-toggler"
         type="button"
@@ -20,7 +22,10 @@ const Navbar: React.FC = () => {
       >
         <span className="navbar-toggler-icon"></span>
       </button>
-      <div className={`collapse navbar-collapse${isNavOpen ? ' show' : ''}`} id="navbarNavAltMarkup">
+      <div
+        className={`collapse navbar-collapse${isNavOpen ? " show" : ""}`}
+        id="navbarNavAltMarkup"
+      >
         <div className="navbar-nav">
           <Link to="/collection" className="coll_link">
             Collection
@@ -38,6 +43,6 @@ const Navbar: React.FC = () => {
       </div>
     </nav>
   );
-}
+};
 
 export default Navbar;
