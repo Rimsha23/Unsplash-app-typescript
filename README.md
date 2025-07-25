@@ -36,17 +36,6 @@ A responsive image gallery web application built using **React.js** and **TypeSc
 
 ---
 
-## 💡 Future Improvements
-
-- Add category filters and sort options
-
-- Implement infinite scroll
-
-- Enhance accessibility (keyboard navigation, ARIA roles)
-
----
-
-
 
 ## 📦 Installation
 
