@@ -36,7 +36,7 @@ A responsive image gallery web application built using **React.js** and **TypeSc
 
 ---
 
-##💡 Future Improvements
+## 💡 Future Improvements
 
 - Add category filters and sort options
 
