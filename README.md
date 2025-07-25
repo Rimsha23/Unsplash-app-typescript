@@ -26,13 +26,26 @@ A responsive image gallery web application built using **React.js** and **TypeSc
 
 ## 📚 Learning Outcomes
 
-- Strengthened skills in **TypeScript** and component-based architecture.
+- Strengthened skills in **TypeScript** and component-based architecture
 
-- Gained experience in working with public APIs.
+- Gained experience in working with public APIs
 
-- Built an image search feature with async data fetching.
+- Built an image search feature with async data fetching
 
-- Practiced creating scalable and clean folder structures.
+- Practiced creating scalable and clean folder structures
+
+---
+
+##💡 Future Improvements
+
+- Add category filters and sort options
+
+- Implement infinite scroll
+
+- Enhance accessibility (keyboard navigation, ARIA roles)
+
+---
+
 
 
 ## 📦 Installation
@@ -42,4 +55,11 @@ git clone https://github.com/Rimsha23/Unsplash-app-typescript.git
 cd Unsplash-app-typescript
 npm install
 npm run dev
+```
+---
+
+🔗 Connect with Me
+
+- [Visit my LinkedIn](https://www.linkedin.com/in/rimsha-malik/)
+- [My Github ](https://[www.linkedin.com/in/rimsha-malik/](https://github.com/Rimsha23/)
 
