@@ -61,5 +61,5 @@ npm run dev
 🔗 Connect with Me
 
 - [Visit my LinkedIn](https://www.linkedin.com/in/rimsha-malik/)
-- [My Github ](https://[www.linkedin.com/in/rimsha-malik/](https://github.com/Rimsha23/)
+- [My Github ](https://https://github.com/Rimsha23/)
 
